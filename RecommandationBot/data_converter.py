@@ -3,7 +3,7 @@ from langchain_core.documents import Document
 
 def dataconverter():
 
-    product_data = pd.read_csv("D:\\Vaniyaauth\\Ml\\data.csv")
+    product_data = pd.read_csv("D:\\Vaniyaauth\\Ml\\fixed_updated.csv")
 
     data = product_data[["product_title", "review"]]
 
